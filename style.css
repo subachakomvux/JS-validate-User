@@ -1,0 +1,46 @@
+*{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    
+    background-image: url('dp2018_3.jpg');
+    color:rgb(14, 14, 13);
+}
+header{
+    position: relative;
+    margin-top:0;
+    color:yellow;
+    width:100%;
+    background-color: blue;
+    height:10em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+header h1{
+    display:fixed;
+    /*justify-content:center;
+    align-items:center;*/
+    text-align: center;
+}
+#main-form{
+    background-color: rgba(252, 238, 52, 0.8);
+    border-radius:10%;
+    color:#000;;
+    padding:5em;
+    
+}
+/* styling footer on all pages*/
+.footerBCS{
+    position:fixed;
+    bottom:0;
+    display:block;
+    width:100%;
+    height:2em;
+    line-height:1em;
+    background-color: #5c02d1;
+    color:rgb(243, 228, 12);
+    padding:10px;
+}
